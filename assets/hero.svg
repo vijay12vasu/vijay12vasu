@@ -1,54 +1,84 @@
-<svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="320" viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .name { 
-        font-family: "Avenir Next", Avenir, "Century Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
-        font-weight: 700; 
-        font-size: 48px; 
-        fill: #1c1917; 
-        letter-spacing: -1.5px; 
+      .wordmark {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 800;
+        font-size: 64px;
+        letter-spacing: -2px;
+        fill: #1c1917;
       }
-      .statement { 
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
-        font-size: 15px; 
-        font-weight: 400; 
-        fill: #78716c; 
-        letter-spacing: 0.2px; 
+      .wordmark-shadow {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 800;
+        font-size: 64px;
+        letter-spacing: -2px;
+        fill: none;
+        stroke: #e7e5e4;
+        stroke-width: 1px;
+        transform: translate(6px, 6px);
       }
-      .line { stroke: #e7e5e4; stroke-width: 1; }
+      .grid-line {
+        stroke: #e7e5e4;
+        stroke-width: 1px;
+      }
+      .grid-line-subtle {
+        stroke: #f5f5f4;
+        stroke-width: 1px;
+      }
+      .micro-text {
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        font-size: 9px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        fill: #a8a29e;
+        text-transform: uppercase;
+      }
       .accent { fill: #d97706; }
-      .meta { 
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
-        font-size: 10px; 
-        font-weight: 600; 
-        fill: #a8a29e; 
-        letter-spacing: 2px; 
-        text-transform: uppercase; 
-      }
+      .accent-glow { fill: #d97706; opacity: 0.2; }
       
       @media (prefers-color-scheme: dark) {
-        .name { fill: #f5f5f4; }
-        .statement { fill: #a8a29e; }
-        .line { stroke: #292524; }
-        .accent { fill: #fbbf24; }
-        .meta { fill: #52525b; }
+        .wordmark { fill: #f5f5f4; }
+        .wordmark-shadow { stroke: #292524; }
+        .grid-line { stroke: #292524; }
+        .grid-line-subtle { stroke: #1c1917; }
+        .micro-text { fill: #52525b; }
       }
     </style>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" class="grid-line-subtle" />
+    </pattern>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="4" />
+    </filter>
   </defs>
 
-  <rect width="800" height="260" fill="transparent" />
+  <!-- Background Grid -->
+  <rect width="800" height="320" fill="url(#grid)" />
   
-  <path d="M 80 0 L 80 260 M 720 0 L 720 260" class="line" stroke-dasharray="1 6" />
-  <path d="M 0 220 L 800 220" class="line" />
+  <!-- Architectural Lines -->
+  <path d="M 60 0 L 60 320 M 740 0 L 740 320" class="grid-line" stroke-dasharray="2 4" />
+  <path d="M 0 240 L 800 240 M 0 80 L 800 80" class="grid-line" />
 
-  <text x="120" y="115" class="name">Vijayaragavan R</text>
-  
-  <text x="120" y="185" class="statement">I want to understand the layer underneath.</text>
+  <!-- Coordinates & Micro Data -->
+  <text x="68" y="72" class="micro-text">SYS.ID // V.R.01</text>
+  <text x="732" y="72" class="micro-text" text-anchor="end">LAT:43.082</text>
+  <text x="68" y="232" class="micro-text">INIT: 2026</text>
+  <text x="732" y="232" class="micro-text" text-anchor="end">STATUS: ACTIVE</text>
+  <text x="68" y="258" class="micro-text">I WANT TO UNDERSTAND THE LAYER UNDERNEATH.</text>
 
-  <circle cx="680" cy="110" r="40" fill="none" class="line" />
-  <circle cx="680" cy="110" r="15" fill="none" class="line" stroke-dasharray="4 4" />
-  <circle cx="680" cy="110" r="3" class="accent" />
-  
-  <text x="120" y="245" class="meta">Identity Layer</text>
-  <text x="635" y="245" class="meta">Observe / Build</text>
+  <!-- Node Elements -->
+  <circle cx="60" cy="80" r="3" class="grid-line" fill="none" />
+  <circle cx="740" cy="80" r="3" class="grid-line" fill="none" />
+  <circle cx="60" cy="240" r="3" class="grid-line" fill="none" />
+  <circle cx="740" cy="240" r="3" class="accent" />
+  <circle cx="740" cy="240" r="12" class="accent-glow" filter="url(#blur)" />
+
+  <!-- Dynamic Geometry -->
+  <path d="M 640 120 L 700 120 L 700 180" fill="none" class="grid-line" />
+  <rect x="638" y="118" width="4" height="4" class="grid-line" fill="none" />
+
+  <!-- The Identity Wordmark with Dimensional Shadow -->
+  <text x="54" y="176" class="wordmark-shadow">Vijayaragavan R</text>
+  <text x="60" y="170" class="wordmark">Vijayaragavan R</text>
 </svg>
