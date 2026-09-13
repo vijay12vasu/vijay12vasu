@@ -1,0 +1,64 @@
+<svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .text-node { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 600; font-size: 13px; fill: #f4f4f5; text-anchor: middle; }
+      .text-sub { font-family: "SFMono-Regular", Consolas, monospace; font-size: 9px; fill: #71717a; text-anchor: middle; letter-spacing: 1px; }
+      .arrow { fill: none; stroke: #3f3f46; stroke-width: 1.5; }
+      .arrow-head { fill: #3f3f46; }
+      .highlight-stroke { stroke: #38bdf8; stroke-dasharray: 2 4; }
+    </style>
+  </defs>
+
+  <rect width="800" height="120" fill="#09090b" />
+
+  <!-- Nodes (Curious, Try, Break, Understand, Rebuild) -->
+  <!-- 1. CURIOUS -->
+  <g transform="translate(100, 60)">
+    <circle cx="0" cy="0" r="28" fill="#18181b" stroke="#27272a" stroke-width="1" />
+    <text y="4" class="text-node">Curious</text>
+  </g>
+
+  <!-- 2. TRY -->
+  <g transform="translate(250, 60)">
+    <circle cx="0" cy="0" r="28" fill="#18181b" stroke="#27272a" stroke-width="1" />
+    <text y="4" class="text-node">Try</text>
+  </g>
+
+  <!-- 3. BREAK -->
+  <g transform="translate(400, 60)">
+    <circle cx="0" cy="0" r="28" fill="#18181b" stroke="#27272a" stroke-width="1" />
+    <text y="4" class="text-node">Break</text>
+  </g>
+
+  <!-- 4. UNDERSTAND -->
+  <g transform="translate(550, 60)">
+    <circle cx="0" cy="0" r="28" fill="#18181b" stroke="#38bdf8" stroke-width="1" opacity="0.6" />
+    <text y="4" class="text-node">Analyze</text>
+  </g>
+
+  <!-- 5. REBUILD -->
+  <g transform="translate(700, 60)">
+    <circle cx="0" cy="0" r="28" fill="#18181b" stroke="#27272a" stroke-width="1" />
+    <text y="4" class="text-node">Rebuild</text>
+  </g>
+
+  <!-- Arrows -->
+  <path d="M 135 60 L 215 60" class="arrow" />
+  <polygon points="215,60 208,56 208,64" class="arrow-head" />
+
+  <path d="M 285 60 L 365 60" class="arrow" />
+  <polygon points="365,60 358,56 358,64" class="arrow-head" />
+
+  <path d="M 435 60 L 515 60" class="arrow" />
+  <polygon points="515,60 508,56 508,64" class="arrow-head" />
+
+  <path d="M 585 60 L 665 60" class="arrow highlight-stroke" />
+  <polygon points="665,60 658,56 658,64" fill="#38bdf8" />
+
+  <!-- Loop back line -->
+  <path d="M 700 95 L 700 110 L 100 110 L 100 95" class="arrow" />
+  <polygon points="100,95 96,102 104,102" class="arrow-head" />
+  
+  <text x="400" y="105" class="text-sub" fill="#52525b" style="background: #09090b;">THE FEEDBACK LOOP</text>
+
+</svg>
