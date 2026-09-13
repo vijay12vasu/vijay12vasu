@@ -1,27 +1,39 @@
-<svg width="800" height="280" viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .name { font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; font-size: 42px; fill: #1c1917; font-weight: 400; letter-spacing: -0.5px; }
-      .statement { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 300; font-size: 16px; fill: #57534e; letter-spacing: 0.5px; }
-      .line { stroke: #e7e5e4; stroke-width: 1; }
+      .name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 300; font-size: 56px; fill: #1c1917; letter-spacing: 8px; text-transform: uppercase; }
+      .statement { font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; font-size: 18px; fill: #57534e; font-style: italic; }
+      .line { stroke: #d6d3d1; stroke-width: 1; }
+      .accent { fill: #d97706; } /* Subtle amber/gold accent */
+      .meta { font-family: "SFMono-Regular", Consolas, monospace; font-size: 10px; fill: #a8a29e; letter-spacing: 2px; }
       
       @media (prefers-color-scheme: dark) {
         .name { fill: #f5f5f4; }
         .statement { fill: #a8a29e; }
         .line { stroke: #292524; }
-        .bg { fill: #0c0a09; }
+        .accent { fill: #fbbf24; }
+        .meta { fill: #52525b; }
       }
     </style>
   </defs>
 
-  <!-- Background (Transparent by default for GitHub blending, but explicitly styled for dark mode if supported) -->
-  <rect width="800" height="280" fill="transparent" class="bg" />
+  <rect width="800" height="260" fill="transparent" />
+  
+  <!-- Subtle architectural framing -->
+  <path d="M 80 0 L 80 260 M 720 0 L 720 260" class="line" stroke-dasharray="1 6" />
+  <path d="M 0 220 L 800 220" class="line" />
 
-  <!-- A single, delicate architectural line -->
-  <path d="M 100 0 L 100 280" class="line" />
+  <!-- Composition -->
+  <text x="120" y="110" class="name">VIJAY</text>
+  <rect x="120" y="140" width="40" height="2" class="accent" />
   
-  <text x="140" y="140" class="name">Vijayaragavan R</text>
+  <text x="120" y="180" class="statement">I want to understand the layer underneath.</text>
+
+  <!-- Asymmetric details -->
+  <circle cx="680" cy="110" r="40" fill="none" class="line" />
+  <circle cx="680" cy="110" r="15" fill="none" class="line" stroke-dasharray="4 4" />
+  <circle cx="680" cy="110" r="3" class="accent" />
   
-  <text x="142" y="185" class="statement">I don't want to simply memorize how something works.</text>
-  <text x="142" y="215" class="statement">I want to understand why it works.</text>
+  <text x="120" y="245" class="meta">IDENTITY LAYER</text>
+  <text x="635" y="245" class="meta">OBSERVE / BUILD</text>
 </svg>
