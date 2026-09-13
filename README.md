@@ -12,14 +12,14 @@
 <table width="600" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td>
-<h3 align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 600; color: #78716c; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px;">A Little About Me</h3>
-<p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400; line-height: 1.7; color: #57534e; margin-bottom: 24px;">
+<h3 align="left" style="font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif; font-weight: 500; color: #44403c; font-size: 20px; letter-spacing: -0.2px; margin-bottom: 12px; margin-top: 0;">A Little About Me</h3>
+<p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.8; color: #57534e; margin-bottom: 32px; margin-top: 0;">
 I am a Computer Science student, but my identity isn't defined by my degree. Mostly, I am someone whose curiosity tends to get the better of them. I enjoy finding systems that I don't understand and slowly taking them apart until they make sense.
 </p>
-<br><br>
+<br>
         
-<h3 align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 600; color: #78716c; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px;">Curiosity</h3>
-<p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400; line-height: 1.7; color: #57534e; margin-bottom: 24px;">
+<h3 align="left" style="font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif; font-weight: 500; color: #44403c; font-size: 20px; letter-spacing: -0.2px; margin-bottom: 12px; margin-top: 0;">Curiosity</h3>
+<p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.8; color: #57534e; margin-bottom: 32px; margin-top: 0;">
 My interests are scattered, but they all revolve around a single theme: understanding how things connect. I am naturally drawn to questions about how software interacts with the operating system, how automation can replace manual effort, and how to structure complexity so it becomes manageable.
 </p>
 </td>
@@ -39,8 +39,8 @@ My interests are scattered, but they all revolve around a single theme: understa
 <table width="600" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td>
-<h3 align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 600; color: #78716c; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px;">How I Learn</h3>
-<p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400; line-height: 1.7; color: #57534e; margin-bottom: 24px;">
+<h3 align="left" style="font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif; font-weight: 500; color: #44403c; font-size: 20px; letter-spacing: -0.2px; margin-bottom: 12px; margin-top: 0;">How I Learn</h3>
+<p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.8; color: #57534e; margin-bottom: 32px; margin-top: 0;">
 I don't learn by reading the manual from start to finish. I learn through friction. I find a concept that feels too abstract, I try to use it, I watch it inevitably break, and then I trace the error all the way down until the system finally makes sense.
 </p>
 </td>
@@ -60,27 +60,27 @@ I don't learn by reading the manual from start to finish. I learn through fricti
 <table width="600" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td>
-<h3 align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 600; color: #78716c; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px;">Where I'm Heading</h3>
-<p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400; line-height: 1.7; color: #57534e; margin-bottom: 24px;">
+<h3 align="left" style="font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif; font-weight: 500; color: #44403c; font-size: 20px; letter-spacing: -0.2px; margin-bottom: 12px; margin-top: 0;">Where I'm Heading</h3>
+<p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.8; color: #57534e; margin-bottom: 32px; margin-top: 0;">
 Right now, I am exploring what it means to be a serious software engineer. My focus is shifting between Cyber Security, backend architectures, and AI systems. I am learning how to structure complex applications and solve problems that require more than just writing a few lines of code.
 </p>
-<br><br>
+<br>
 
-<h3 align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 600; color: #78716c; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 12px;">Personal Principles</h3>
-<p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400; line-height: 1.7; color: #57534e; margin-bottom: 24px;">
-&bull; <b>Understand before pretending to know.</b> I would rather admit ignorance and write terrible code to test a concept than use a framework blindly.<br/>
-&bull; <b>Don't hide complexity.</b> The best engineering doesn't pretend complexity doesn't exist; it just maps it out beautifully.<br/>
-&bull; <b>Build to understand.</b> The fastest way for me to comprehend a concept is to see it fail in practice.
+<h3 align="left" style="font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif; font-weight: 500; color: #44403c; font-size: 20px; letter-spacing: -0.2px; margin-bottom: 12px; margin-top: 0;">Personal Principles</h3>
+<p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.8; color: #57534e; margin-bottom: 32px; margin-top: 0;">
+&bull; <b style="font-weight: 600; color: #44403c;">Understand before pretending to know.</b> I would rather admit ignorance and write terrible code to test a concept than use a framework blindly.<br/>
+&bull; <b style="font-weight: 600; color: #44403c;">Don't hide complexity.</b> The best engineering doesn't pretend complexity doesn't exist; it just maps it out beautifully.<br/>
+&bull; <b style="font-weight: 600; color: #44403c;">Build to understand.</b> The fastest way for me to comprehend a concept is to see it fail in practice.
 </p>
-<br><br><br>
+<br><br>
         
-<p align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500; letter-spacing: 1px;">
-<a href="https://vijayaragavanr.vercel.app/" style="text-decoration: none; color: #a8a29e;">Portfolio &rarr;</a>
+<p align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase;">
+<a href="https://vijayaragavanr.vercel.app/" style="text-decoration: none; color: #78716c; padding-bottom: 4px; border-bottom: 1px solid #d6d3d1;">Portfolio &rarr;</a>
 </p>
         
-<br><br><br>
+<br><br>
         
-<p align="center" style="font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif; font-size: 16px; line-height: 1.6; color: #a8a29e; font-style: italic;">
+<p align="center" style="font-family: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif; font-size: 16px; font-weight: 400; line-height: 1.6; color: #a8a29e; font-style: italic;">
 — learning by building things I don't completely understand yet.
 </p>
         
