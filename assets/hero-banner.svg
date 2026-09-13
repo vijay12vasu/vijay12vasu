@@ -1,0 +1,50 @@
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a" />
+      <stop offset="100%" stop-color="#141416" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#141416" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+    
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 800; font-size: 42px; fill: #ffffff; letter-spacing: 4px; }
+      .subtitle { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 11px; fill: #8b949e; letter-spacing: 2px; text-transform: uppercase; }
+      .accent { fill: #3b82f6; }
+      @keyframes pulse {
+        0% { opacity: 0.3; }
+        50% { opacity: 0.8; }
+        100% { opacity: 0.3; }
+      }
+      .dot { animation: pulse 4s infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" fill="url(#bg)" rx="8" />
+  
+  <!-- Patterns & Glow -->
+  <rect width="800" height="200" fill="url(#grid)" rx="8" />
+  <rect width="800" height="200" fill="url(#dots)" rx="8" />
+  <rect width="800" height="200" fill="url(#glow)" rx="8" />
+
+  <!-- Technical Accents -->
+  <path d="M 0 192 L 8 200 L 800 200" fill="none" stroke="#3b82f6" stroke-width="2" stroke-opacity="0.5" />
+  <rect x="40" y="30" width="12" height="2" fill="#3b82f6" opacity="0.8" />
+  <rect x="56" y="30" width="4" height="2" fill="#8b949e" opacity="0.5" />
+  <circle cx="750" cy="40" r="3" fill="#3b82f6" class="dot" />
+  <circle cx="765" cy="40" r="3" fill="#8b949e" opacity="0.3" />
+
+  <text x="40" y="105" class="title">VIJAYARAGAVAN R<tspan class="accent">.</tspan></text>
+  <text x="42" y="140" class="subtitle">Systems Architecture <tspan fill="#30363d">///</tspan> AI Integration <tspan fill="#30363d">///</tspan> Full-Stack Engineering</text>
+  
+  <text x="42" y="170" class="subtitle" style="font-size: 9px; fill: #484f58;">SYS.ID: CSE_V1 // STATUS: ONLINE</text>
+</svg>
