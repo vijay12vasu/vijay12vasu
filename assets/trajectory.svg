@@ -1,0 +1,33 @@
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 300; font-size: 14px; fill: #d4d4d8; letter-spacing: 2px; text-transform: uppercase; }
+      .mono { font-family: "SFMono-Regular", Consolas, monospace; font-size: 10px; fill: #71717a; letter-spacing: 1px; }
+      .line { stroke: #27272a; stroke-width: 1; }
+      .vector { stroke: #52525b; stroke-width: 1; fill: none; }
+    </style>
+  </defs>
+
+  <rect width="800" height="200" fill="#09090b" />
+  <path d="M 60 0 L 60 200 M 740 0 L 740 200" class="line" stroke-dasharray="1 5" />
+  
+  <text x="80" y="40" class="title">THE ENGINEERING TRAJECTORY</text>
+  <rect x="80" y="55" width="20" height="1" fill="#52525b" />
+
+  <!-- Trajectory line -->
+  <path d="M 80 120 L 700 120" class="vector" />
+  <polygon points="700,120 695,117 695,123" fill="#52525b" />
+
+  <!-- Nodes -->
+  <circle cx="150" cy="120" r="4" fill="#27272a" />
+  <circle cx="350" cy="120" r="4" fill="#27272a" />
+  <circle cx="550" cy="120" r="6" fill="#09090b" stroke="#a1a1aa" stroke-width="2" />
+  <circle cx="550" cy="120" r="2" fill="#a1a1aa" />
+
+  <text x="150" y="95" class="mono" text-anchor="middle">CSE FOUNDATIONS</text>
+  <text x="350" y="95" class="mono" text-anchor="middle">SYSTEMS EXPLORATION</text>
+  <text x="550" y="95" class="mono" text-anchor="middle" fill="#d4d4d8">FULL-STACK &amp; AI CAPABILITY</text>
+
+  <text x="550" y="150" class="mono" text-anchor="middle" fill="#52525b">BUILDING THE MUSCLE</text>
+
+</svg>

@@ -1,0 +1,64 @@
+<svg width="800" height="280" viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 300; font-size: 14px; fill: #d4d4d8; letter-spacing: 2px; text-transform: uppercase; }
+      .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 300; font-size: 13px; fill: #a1a1aa; }
+      .mono { font-family: "SFMono-Regular", Consolas, monospace; font-size: 10px; fill: #71717a; letter-spacing: 1px; }
+      .line { stroke: #27272a; stroke-width: 1; }
+      .arrow { fill: none; stroke: #3f3f46; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect width="800" height="280" fill="#09090b" />
+  
+  <!-- Grid -->
+  <path d="M 60 0 L 60 280 M 740 0 L 740 280" class="line" stroke-dasharray="1 5" />
+  
+  <!-- Title 1 -->
+  <text x="80" y="40" class="title">THE CURIOSITY VECTOR</text>
+  <rect x="80" y="55" width="20" height="1" fill="#52525b" />
+
+  <!-- Nodes -->
+  <text x="80" y="90" class="text">1. Operating System Interactions</text>
+  <text x="80" y="115" class="text">2. Software Architecture &amp; Scale</text>
+  <text x="80" y="140" class="text">3. Intelligence &amp; Automation</text>
+  <text x="80" y="165" class="text">4. Security Principles</text>
+
+  <!-- Title 2 -->
+  <text x="450" y="40" class="title">THE FEEDBACK LOOP</text>
+  <rect x="450" y="55" width="20" height="1" fill="#52525b" />
+
+  <!-- Cycle -->
+  <!-- Box 1 -->
+  <rect x="450" y="80" width="100" height="30" fill="none" stroke="#27272a" rx="2" />
+  <text x="500" y="99" class="mono" text-anchor="middle">OBSERVE</text>
+  
+  <!-- Box 2 -->
+  <rect x="600" y="80" width="100" height="30" fill="none" stroke="#27272a" rx="2" />
+  <text x="650" y="99" class="mono" text-anchor="middle">BUILD</text>
+
+  <!-- Box 3 -->
+  <rect x="600" y="140" width="100" height="30" fill="none" stroke="#27272a" rx="2" />
+  <text x="650" y="159" class="mono" text-anchor="middle">BREAK</text>
+
+  <!-- Box 4 -->
+  <rect x="450" y="140" width="100" height="30" fill="none" stroke="#52525b" rx="2" stroke-dasharray="2 4" />
+  <text x="500" y="159" class="mono" text-anchor="middle" fill="#d4d4d8">UNDERSTAND</text>
+
+  <!-- Arrows -->
+  <path d="M 555 95 L 595 95" class="arrow" />
+  <polygon points="595,95 590,92 590,98" fill="#3f3f46" />
+
+  <path d="M 650 115 L 650 135" class="arrow" />
+  <polygon points="650,135 647,130 653,130" fill="#3f3f46" />
+
+  <path d="M 595 155 L 555 155" class="arrow" />
+  <polygon points="555,155 560,152 560,158" fill="#3f3f46" />
+
+  <path d="M 500 135 L 500 115" class="arrow" />
+  <polygon points="500,115 497,120 503,120" fill="#3f3f46" />
+  
+  <text x="550" y="210" class="text" text-anchor="middle" font-style="italic">"I don't learn by reading the manual."</text>
+  <text x="550" y="230" class="text" text-anchor="middle" font-style="italic">"I learn by pushing the boundaries until the system fails."</text>
+
+</svg>

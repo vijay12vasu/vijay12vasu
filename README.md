@@ -1,83 +1,61 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-identity.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-identity.svg">
-    <img alt="VIJAY - I like understanding systems rather than merely using them." src="assets/hero-identity.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/identity-core.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/identity-core.svg">
+    <img alt="VIJAY" src="assets/identity-core.svg">
   </picture>
 </div>
 
-<br/>
-
-## 01 // Who I Am
-
-I am a Computer Science student currently growing into a software engineer. But more than that, I am someone who spends most of my time taking things apart to see how they actually work. I don't just want to write code that runs; I want to understand what happens underneath the abstraction layers. 
-
-I build things that shouldn't be this complicated just to figure out why they are.
-
-<br/>
-<div align="center"><img src="assets/section-divider.svg" alt="---"/></div>
-<br/>
-
-## 02 // What Piques My Curiosity
-
-I am naturally drawn to problems that require looking below the surface.
+<div align="center">
+  <table width="800" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="60"></td>
+      <td width="680">
+        <br/><br/>
+        <h3 align="left">A Little About Me</h3>
+        <p align="left">I am a Computer Science student, but my identity is not my degree. I am someone who fundamentally enjoys taking things apart. If a system feels like magic, it bothers me until I figure out the illusion. I am currently spending my time outside of class growing into a serious software engineer by building things that force me to look underneath the abstraction layers.</p>
+        <br/>
+      </td>
+      <td width="60"></td>
+    </tr>
+  </table>
+</div>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/curiosity-map.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/curiosity-map.svg">
-    <img alt="Curiosity Map: How things work underneath, Security, Architecture, Local AI" src="assets/curiosity-map.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/mind-map.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/mind-map.svg">
+    <img alt="Curiosity Vector and Feedback Loop" src="assets/mind-map.svg">
   </picture>
 </div>
-
-<br/>
-<div align="center"><img src="assets/section-divider.svg" alt="---"/></div>
-<br/>
-
-## 03 // How I Learn
-
-I don't learn by reading documentation from end to end. I learn through friction. I find a concept that feels too abstract, I try to use it, I watch it inevitably break, and then I trace the error all the way down until the system makes sense.
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/learning-cycle.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/learning-cycle.svg">
-    <img alt="Learning Cycle: Curious -> Try -> Break -> Analyze -> Rebuild -> Curious" src="assets/learning-cycle.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/trajectory.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/trajectory.svg">
+    <img alt="The Engineering Trajectory" src="assets/trajectory.svg">
   </picture>
 </div>
 
-<br/>
-<div align="center"><img src="assets/section-divider.svg" alt="---"/></div>
-<br/>
-
-## 04 // My Trajectory
-
-Right now, I am heavily focused on turning my curiosity into deep, practical capability. I am moving toward full-stack development and systems engineering by focusing on:
-
-- **Deep Backend Foundations:** Understanding state, transactions, and performance in Java.
-- **Data Structures & Algorithms:** Learning how to think structurally and solve problems efficiently.
-- **Applied Local AI:** Figuring out how intelligence can securely interact with host operating systems rather than just existing in the cloud.
-
-<br/>
-<div align="center"><img src="assets/section-divider.svg" alt="---"/></div>
-<br/>
-
-## 05 // Principles I Build By
-
-*   **Understand Before Abstraction:** Don't use a tool until you at least loosely understand what it's hiding from you.
-*   **Build Instead of Consume:** The easiest way to learn a system is to try building a terrible version of it from scratch.
-*   **Embrace the Breakage:** Errors aren't failures; they are the fastest way to map the boundaries of a system.
-
-<br/>
-<div align="center"><img src="assets/section-divider.svg" alt="---"/></div>
-<br/>
-
-## 06 // Connect
-
-If you want to talk about how things work, or if you're interested in the things I am exploring, you can reach me at **[vijay12vasu@gmail.com](mailto:vijay12vasu@gmail.com)**.
-
-<br/>
-
-<div align="right">
-  <p><i>— learning by building things I don't completely understand yet.</i></p>
+<div align="center">
+  <table width="800" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="60"></td>
+      <td width="680">
+        <br/><br/>
+        <h3 align="left">Personal Principles</h3>
+        <p align="left">
+          <b>Understand before pretending to know.</b> I would rather admit ignorance and write terrible code to test a concept than use a framework blindly.<br/><br/>
+          <b>Don't hide complexity — map it.</b> The best engineering doesn't pretend complexity doesn't exist; it just organizes it beautifully.<br/><br/>
+          <b>Build to understand.</b> The fastest way for me to comprehend a concept is to see it fail in practice.
+        </p>
+        <br/><br/>
+        <p align="right">
+          <i>— I leave the repositories below to prove the rest.</i>
+        </p>
+        <br/><br/>
+      </td>
+      <td width="60"></td>
+    </tr>
+  </table>
 </div>
