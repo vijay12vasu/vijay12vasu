@@ -9,52 +9,37 @@
 <br/>
 
 <div align="center">
-  <p><strong>Computer Science student specializing in systems architecture, AI integration, and full-stack development.</strong></p>
+  <p><strong>Computer Science student with a strong focus on systems architecture and full-stack development.</strong></p>
   <p><i>I engineer solutions by exploring the layers I don't yet understand.</i></p>
 </div>
 
 <br/>
+<div align="center"><img src="assets/section-divider.svg" alt="---"/></div>
+<br/>
 
-<div align="center">
-  <a href="https://vijayaragavanr.vercel.app" target="_blank">Portfolio Engine</a> <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="mailto:vijay12vasu@gmail.com">Contact</a>
-</div>
+## ⬡ What I Build
+
+I am drawn to software engineering at the intersection of **backend systems, automation, and applied AI**. Rather than just building standard web applications, I am interested in how systems communicate, how persistent state is managed locally, and how security principles apply to modern architectures. I am actively building toward becoming an engineer capable of designing full-stack infrastructure from the database up to the presentation layer.
+
+## ⬡ How I Think
+
+*   **Systems Over Syntax:** I care more about understanding the pipeline and the constraints of a problem than memorizing a specific framework. 
+*   **Practical Execution:** I learn by building. If a concept is too abstract, I write the code to see it break, trace the error, and rebuild it properly.
+*   **Performance & Usability:** I believe good engineering requires empathy for the end-user and respect for the hardware running the code.
+*   **Security by Design:** As a Cyber Security student, I approach software with an awareness of how things break, leak, or fail under pressure.
+
+## ⬡ Current Focus
+
+I am currently scaling my engineering depth by strengthening my foundation in:
+- **Full Stack Java** (Spring Boot, Hibernate, API Gateways)
+- **Data Structures & Algorithms**
+- **Local AI System Integration**
 
 <br/>
 <div align="center"><img src="assets/section-divider.svg" alt="---"/></div>
 <br/>
 
-## ⬡ Current Focus: EchoAI
-
-> **An experimental, locally-hosted AI desktop assistant engineered to run directly on the host OS.**
-
-Instead of just interacting with an API, **[Echo](https://github.com/vijay12vasu/Echo)** is designed as a structured spatial pipeline. It routes tasks to specialized local models, maintains persistent execution context, and securely interacts with the underlying operating system. I am currently focused on expanding its local execution capabilities and optimizing its system integration footprint.
-
-<br/>
-<div align="center"><img src="assets/section-divider.svg" alt="---"/></div>
-<br/>
-
-## ⬡ Engineering Architecture
-
-### 1. EduTrack
-**Microservices Architecture • [Repository](https://github.com/vijay12vasu/EduTrack)**
-A full-stack platform engineered to track, verify, and score student academic and extracurricular achievements. Built defensively with a true microservices architecture utilizing Spring Boot, Eureka Server, and an API Gateway to handle secure routing. The presentation layer is driven by React, while scoring heuristics are offloaded to a dedicated Python/FastAPI ML service.
-
-### 2. Personal Portfolio Engine
-**Spatial Physics & React • [Live Deployment](https://vijayaragavanr.vercel.app)**
-Rather than a standard grid-based website, I built a custom physics-driven spatial environment. It utilizes raw Framer Motion `useMotionValue` and `useAnimationFrame` loops to bypass the standard React rendering cycle, ensuring perfectly fluid 3D parallax and cursor interactions without triggering re-renders. *"The portfolio is not about UI. It is about details."*
-
-### 3. Core Enterprise Systems
-**Java & Relational DBs**
-- **[Payroll Hibernate](https://github.com/vijay12vasu/PayrollHibernate):** A Java backend system strictly implementing Hibernate ORM for robust database interaction and transaction management.
-- **[Waste Management System](https://github.com/vijay12vasu/WasteManagementSystem):** A scalable backend application for data tracking and processing logic.
-- **[Bank Account Management](https://github.com/vijay12vasu/BankAccountManagementSystem):** A foundational application demonstrating deep object-oriented principles, encapsulation, and safe state mutation.
-
-<br/>
-<div align="center"><img src="assets/section-divider.svg" alt="---"/></div>
-<br/>
-
-## ⬡ Technical Stack
+## ⬡ Technology
 
 I select tools based on system requirements, not trends.
 
@@ -87,23 +72,30 @@ I select tools based on system requirements, not trends.
 <div align="center"><img src="assets/section-divider.svg" alt="---"/></div>
 <br/>
 
-## ⬡ Operating Context
+## ⬡ Selected Work
 
-**Location:** India  
-**Academic Status:** BE CSE (Cyber Security), Karpagam College of Engineering (2024–2028)  
-**Objective:** Building practical, high-performance software systems and continuously scaling my engineering depth.
+I build projects to test boundaries. My complete archive is available in the **Repositories** tab, but a few core projects represent my current trajectory:
 
-<div align="center">
-  <br/>
-  <a href="https://github.com/vijay12vasu">
-    <img src="https://github-readme-stats.vercel.app/api?username=vijay12vasu&show_icons=true&hide_border=true&theme=radical&bg_color=00000000&title_color=3b82f6&text_color=8b949e&icon_color=3b82f6" alt="GitHub Stats" />
-  </a>
-</div>
+*   **[Echo](https://github.com/vijay12vasu/Echo):** An experimental, locally-hosted AI assistant exploring local context persistence and host OS automation.
+*   **[EduTrack](https://github.com/vijay12vasu/EduTrack):** A full-stack microservices platform (Spring Boot/React) integrating a Python machine-learning scoring service.
+*   **[Portfolio Engine](https://vijayaragavanr.vercel.app):** A custom physics-driven spatial environment built entirely from scratch in React.
 
 <br/>
 <div align="center"><img src="assets/section-divider.svg" alt="---"/></div>
 <br/>
 
+## ⬡ Connect
+
+**Location:** India  
+**Academic Status:** BE CSE (Cyber Security), Karpagam College of Engineering (2024–2028)
+
+<div align="center">
+  <br/>
+  <a href="https://vijayaragavanr.vercel.app" target="_blank">Portfolio</a> <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="mailto:vijay12vasu@gmail.com">Email</a>
+</div>
+
+<br/>
 <div align="center">
   <p><samp>SYS.TERMINATED</samp></p>
 </div>
