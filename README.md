@@ -2,7 +2,7 @@
 
 CSE (Cyber Security) Student
 
-Software engineer specializing in systems architecture and full-stack development.
+Computer Science student with a strong focus on systems architecture and full-stack development.
 
 ## About Me
 
