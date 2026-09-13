@@ -1,24 +1,27 @@
-<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="280" viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 300; font-size: 42px; fill: #ececed; letter-spacing: 4px; }
-      .statement { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 300; font-size: 16px; fill: #a1a1aa; letter-spacing: 0.5px; }
-      .line { stroke: #27272a; stroke-width: 1; }
-      .accent { fill: #38bdf8; }
+      .name { font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; font-size: 42px; fill: #1c1917; font-weight: 400; letter-spacing: -0.5px; }
+      .statement { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 300; font-size: 16px; fill: #57534e; letter-spacing: 0.5px; }
+      .line { stroke: #e7e5e4; stroke-width: 1; }
+      
+      @media (prefers-color-scheme: dark) {
+        .name { fill: #f5f5f4; }
+        .statement { fill: #a8a29e; }
+        .line { stroke: #292524; }
+        .bg { fill: #0c0a09; }
+      }
     </style>
   </defs>
 
-  <rect width="800" height="200" fill="#09090b" />
-  
-  <path d="M 0 160 L 800 160" class="line" />
-  <path d="M 40 0 L 40 200 M 760 0 L 760 200" class="line" stroke-dasharray="2 4" />
-  
-  <circle cx="700" cy="80" r="40" fill="none" stroke="#27272a" stroke-width="1" />
-  <circle cx="700" cy="80" r="15" fill="none" stroke="#52525b" stroke-width="1" stroke-dasharray="2 4" />
-  <circle cx="700" cy="80" r="3" class="accent" />
+  <!-- Background (Transparent by default for GitHub blending, but explicitly styled for dark mode if supported) -->
+  <rect width="800" height="280" fill="transparent" class="bg" />
 
-  <text x="70" y="80" class="name">VIJAY</text>
-  <text x="70" y="125" class="statement">I like understanding systems rather than merely using them.</text>
+  <!-- A single, delicate architectural line -->
+  <path d="M 100 0 L 100 280" class="line" />
   
-  <rect x="70" y="159" width="40" height="2" class="accent" />
+  <text x="140" y="140" class="name">Vijayaragavan R</text>
+  
+  <text x="142" y="185" class="statement">I don't want to simply memorize how something works.</text>
+  <text x="142" y="215" class="statement">I want to understand why it works.</text>
 </svg>
