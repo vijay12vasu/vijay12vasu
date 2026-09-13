@@ -10,7 +10,8 @@
 
 <h3 align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; color: #1c1917; font-size: 20px; letter-spacing: -0.3px; margin-top: 0; margin-bottom: 16px;">A Little About Me</h3>
 <p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400; line-height: 1.8; color: #57534e; margin-top: 0;">
-I am a Computer Science student, but my identity isn't defined by my degree. Mostly, I am someone whose curiosity tends to get the better of them. I enjoy finding systems that I don't understand and slowly taking them apart until they make sense.
+I’m a Computer Science Engineering student focused on becoming a strong software engineer through practical experience. I’m interested in understanding how software works beyond the surface—how systems are designed, how different components interact, and how ideas become reliable, working products.<br/><br/>
+I learn best by turning concepts into working systems. Building, testing, breaking, and refining something gives me a deeper understanding than simply studying it in theory.
 </p>
 
 <br><br><br><br>
@@ -23,7 +24,8 @@ I am a Computer Science student, but my identity isn't defined by my degree. Mos
 
 <h3 align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; color: #1c1917; font-size: 20px; letter-spacing: -0.3px; margin-top: 0; margin-bottom: 16px;">Curiosity</h3>
 <p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400; line-height: 1.8; color: #57534e; margin-top: 0;">
-My interests are scattered, but they all revolve around a single theme: understanding how things connect. I am naturally drawn to questions about how software interacts with the operating system, how automation can replace manual effort, and how to structure complexity so it becomes manageable.
+I’m naturally drawn to the parts of technology that require deeper understanding. I enjoy exploring how software interacts with operating systems, how automation can simplify complex tasks, and how well-structured systems can turn complicated problems into manageable ones.<br/><br/>
+My interests continue to evolve, but the underlying goal remains the same: understand how things work, then find better ways to build them.
 </p>
 
 <br clear="all">
@@ -37,7 +39,8 @@ My interests are scattered, but they all revolve around a single theme: understa
 
 <h3 align="right" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; color: #1c1917; font-size: 20px; letter-spacing: -0.3px; margin-top: 0; margin-bottom: 16px;">How I Learn</h3>
 <p align="right" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400; line-height: 1.8; color: #57534e; margin-top: 0;">
-I don't learn by reading the manual from start to finish. I learn through friction. I find a concept that feels too abstract, I try to use it, I watch it inevitably break, and then I trace the error all the way down until the system finally makes sense.
+I learn through a combination of theory and experimentation. I start with a concept, put it into practice, and use the problems I encounter to understand what I missed.<br/><br/>
+Debugging, experimenting, and rebuilding are an important part of that process. When something fails, I prefer to trace the problem to its root rather than work around it. That process helps me turn unfamiliar concepts into knowledge I can actually apply.
 </p>
 
 <br clear="all">
@@ -45,16 +48,17 @@ I don't learn by reading the manual from start to finish. I learn through fricti
 
 <h3 align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; color: #1c1917; font-size: 20px; letter-spacing: -0.3px; margin-top: 0; margin-bottom: 16px;">Where I'm Heading</h3>
 <p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400; line-height: 1.8; color: #57534e; margin-top: 0;">
-Right now, I am exploring what it means to be a serious software engineer. My focus is shifting between Cyber Security, backend architectures, and AI systems. I am learning how to structure complex applications and solve problems that require more than just writing a few lines of code.
+I’m currently building my foundation as a software engineer, with a growing focus on full-stack development, backend systems, and AI-driven software.<br/><br/>
+My goal is not simply to learn more technologies, but to become better at designing, understanding, and building complete systems. I’m continuing to strengthen my fundamentals while gaining experience through projects and practical problem-solving.
 </p>
 
 <br><br><br>
 
 <h3 align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 600; color: #1c1917; font-size: 20px; letter-spacing: -0.3px; margin-top: 0; margin-bottom: 16px;">Personal Principles</h3>
 <p align="left" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400; line-height: 1.8; color: #57534e; margin-top: 0;">
-&bull; <b style="font-weight: 600; color: #1c1917;">Understand before pretending to know.</b> I would rather admit ignorance and write terrible code to test a concept than use a framework blindly.<br/><br/>
-&bull; <b style="font-weight: 600; color: #1c1917;">Don't hide complexity.</b> The best engineering doesn't pretend complexity doesn't exist; it just maps it out beautifully.<br/><br/>
-&bull; <b style="font-weight: 600; color: #1c1917;">Build to understand.</b> The fastest way for me to comprehend a concept is to see it fail in practice.
+&bull; <b style="font-weight: 600; color: #1c1917;">Understand before you use.</b> I want to know what a tool or abstraction is doing rather than depending on it without understanding the fundamentals.<br/><br/>
+&bull; <b style="font-weight: 600; color: #1c1917;">Build to learn.</b> Working on real systems exposes gaps in my understanding and gives me a reason to close them.<br/><br/>
+&bull; <b style="font-weight: 600; color: #1c1917;">Improve through iteration.</b> Good software rarely appears fully formed. I believe meaningful improvement comes from building, testing, identifying weaknesses, and refining the result.
 </p>
 
 <br><br><br><br><br>
@@ -66,6 +70,6 @@ Right now, I am exploring what it means to be a serious software engineer. My fo
 <a href="https://www.linkedin.com/in/vijay-vasu/" style="text-decoration: none; color: #78716c;">[ LinkedIn &nearr; ]</a>
 </p>
 <p align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; color: #a8a29e;">
-— learning by building things I don't completely understand yet.
+A closer look at what I build, how I think, and what I’m currently exploring.
 </p>
 </div>
