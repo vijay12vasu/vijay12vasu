@@ -62,6 +62,8 @@ Right now, I am exploring what it means to be a serious software engineer. My fo
 <div align="center">
 <p align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 16px;">
 <a href="https://vijayaragavanr.vercel.app/" style="text-decoration: none; color: #1c1917;">[ Explore Portfolio &rarr; ]</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/vijay-vasu/" style="text-decoration: none; color: #78716c;">[ LinkedIn &nearr; ]</a>
 </p>
 <p align="center" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; color: #a8a29e;">
 — learning by building things I don't completely understand yet.
