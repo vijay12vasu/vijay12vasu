@@ -2,7 +2,7 @@
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg">
 <source media="(prefers-color-scheme: light)" srcset="assets/hero.svg">
-<img alt="VIJAY - I want to understand the layer underneath." src="assets/hero.svg">
+<img alt="Vijayaragavan R - I want to understand the layer underneath." src="assets/hero.svg">
 </picture>
 </div>
 

@@ -1,10 +1,10 @@
 <svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 300; font-size: 56px; fill: #1c1917; letter-spacing: 8px; text-transform: uppercase; }
+      .name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 300; font-size: 38px; fill: #1c1917; letter-spacing: 4px; text-transform: uppercase; }
       .statement { font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; font-size: 18px; fill: #57534e; font-style: italic; }
       .line { stroke: #d6d3d1; stroke-width: 1; }
-      .accent { fill: #d97706; } /* Subtle amber/gold accent */
+      .accent { fill: #d97706; }
       .meta { font-family: "SFMono-Regular", Consolas, monospace; font-size: 10px; fill: #a8a29e; letter-spacing: 2px; }
       
       @media (prefers-color-scheme: dark) {
@@ -19,17 +19,14 @@
 
   <rect width="800" height="260" fill="transparent" />
   
-  <!-- Subtle architectural framing -->
   <path d="M 80 0 L 80 260 M 720 0 L 720 260" class="line" stroke-dasharray="1 6" />
   <path d="M 0 220 L 800 220" class="line" />
 
-  <!-- Composition -->
-  <text x="120" y="110" class="name">VIJAY</text>
+  <text x="120" y="110" class="name">Vijayaragavan R</text>
   <rect x="120" y="140" width="40" height="2" class="accent" />
   
   <text x="120" y="180" class="statement">I want to understand the layer underneath.</text>
 
-  <!-- Asymmetric details -->
   <circle cx="680" cy="110" r="40" fill="none" class="line" />
   <circle cx="680" cy="110" r="15" fill="none" class="line" stroke-dasharray="4 4" />
   <circle cx="680" cy="110" r="3" class="accent" />
